@@ -1,7 +1,25 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+body { 
+	overflow: hidden; 
+	background-color: black; 
+}
+.center {
+	margin: auto;
+	width: 50%;
+  }
 canvas {
-	border: 2px solid black;
-	background-color: black;
+	border: 1px solid #F0F0F0;
+	background-color: #0050A0;
 }
 video {
 	display: none;
+	position:relative;
+}
+h6{
+	/* palette */
+	color: #0050A0,#F0F0F0,#000020,#F08000,#D02020,#0050A0,#F0F0F0,#000020;
 }
